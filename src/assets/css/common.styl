@@ -1,0 +1,68 @@
+/*-----主题设置-----*/
+.mainColor,.active
+  color #409eff
+  // 1EAEDB
+.mainBg
+  background #409eff
+  color white
+.fc3
+  color #333
+.fc6
+  color #666
+.fc9
+  color #999
+.fs20
+  font-size .2rem
+.fs18
+  font-size .18rem
+.fs16
+  font-size .16rem
+.fs14
+  font-size .14rem
+.fs12
+  font-size .12rem
+.fb
+  font-weight: bold
+/*-----主题设置-----*/
+.container
+  padding 0.1rem
+.pull-left
+  float left
+.pull-right
+  float right
+.clearfix
+  clear both
+  display block
+.clearfix:before,.clearfix:after,.pull-left:after,.pull-right:after
+  content ''
+  clear both
+  display block
+.center
+  text-align center
+a
+ color #666
+ &:active
+  color #333
+/*--0.5px边框-*/
+.borderTop:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    border-top: 1px solid #d1d1d1;
+    width: 200%;
+    transform: 0 0;
+    transform: scale(0.5,0.5);
+    box-sizing: border-box;
+}
+.borderBottom:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -50%;
+    border-bottom: 1px solid #d1d1d1;
+    width: 200%;
+    transform: 0 0;
+    transform: scale(0.5,0.5);
+    box-sizing: border-box;
+}
